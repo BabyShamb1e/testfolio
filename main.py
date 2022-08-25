@@ -10,8 +10,8 @@ def index():
 def about():
     return render_template('about.html')
 
-@app.route('/photos')
-def photos():
+@app.route('/gallery')
+def gallery():
     return render_template('photos.html')
 
 

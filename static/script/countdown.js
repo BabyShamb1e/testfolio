@@ -2,7 +2,7 @@ const countdown = () =>{
     const countDate = new Date("March 20, 2018 00:00:00").getTime();
     const now = new Date().getTime();
     const gap = now - countDate;
-    
+
 
     const second = 1000;
     const minute = second * 60;
