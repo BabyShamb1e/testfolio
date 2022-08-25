@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>main</title>
+{% endblock %}
+
+{% block body %}
+ <div class="container">
+
+        <div class="header">
+            <a href="/about" class="head_link">
+                <h2>codwar</h2>
+            </a>
+        </div>
+
+        <div class="countdown">
+
+            <div class="container-day">
+                <h3 class="day">Time</h3>
+                <h3></h3>
+            </div>
+
+            <div class="container-hour">
+                <h3 class="hour">Time</h3>
+                <h3></h3>
+            </div>
+
+            <div class="container-minute">
+                <h3 class="minute">Time</h3>
+                <h3></h3>
+            </div>
+
+            <div class="container-second">
+                <h3 class="second">Time</h3>
+                <h3></h3>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+
+        <ul class="list">
+            <li class="list__item">
+                <a href="/photos" class="list__link">
+                    <img src="./static/images/twitter.svg" alt="twitter logo" class="list__img">
+                </a>
+            </li>
+
+    </footer>
+
+
+    <script src="./static/script/script.js"></script>
+
+
+{% endblock %}
+
