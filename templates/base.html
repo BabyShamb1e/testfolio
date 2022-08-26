@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./images/icon.png" type="image/icon type">
+    <link rel="icon" href="../static/images/icon.png" type="image/icon type">
     <link rel="stylesheet" href="./static/style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     {% block title %}{% endblock %}
 </head>
 <body>
+
+    <header class="menu__container">
+        <ul class="menu__list">
+
+            <a href="/" class="name__link">Bohdan Lutsenko</a>
+
+            <a href="/about" class="about__link">about</a>
+
+            <a href="/projects" class="projects__link">projects</a>
+
+            <a href="/gallery" class="gallery__link">gallery</a>
+
+            <a href="/contact" class="contacts_link">contact me</a>
+        </ul>
+    </header>
+
     {% block body %}{% endblock %}
 </body>
 </html>

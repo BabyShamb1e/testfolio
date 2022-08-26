@@ -14,6 +14,14 @@ def about():
 def gallery():
     return render_template('photos.html')
 
+@app.route('/projects')
+def projects():
+    return render_template('projects.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contacts.html')
+
 
 
 if __name__ == '__main__':
